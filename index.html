@@ -8,14 +8,16 @@
     <title>Cookie Stand</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="reset.css" />
 <link rel="stylesheet" href="style.css" />
+<!-- <script src="demoscript.js"></script> -->
+<script src="top.js"></script>
 </head>
 <body>
-    <header>
+    <header> class="header"
         <div class="container header-container">
-        <h1>Cookie Stand</h1>
+        <h1 id="heading">Cookie Stand</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -25,5 +27,51 @@
         </nav>
     </div>
     </header>
+    <main class="main">
+        <div class="container main-container">
+            <h2 id="demo">
+                Hi
+                <script>
+                    yourName ();
+                </script>
+            </h2>
+            <section class="hero-section">
+                <img class="hero-img" src="https://images.unsplash.com/photo-1612195325864-72eee6490137?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvb2tpZSUyMHN0YW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="cookie in a plate" />
+                <p class="hero-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut, illum tempore, labore eveniet quia praesentium culpa rerum, dicta officia modi rem reprehenderit corrupti? Perferendis accusamus reprehenderit asperiores quasi repellat!
+                </p>
+            </section>
+            <section> class="cookie-section">
+                <div> class="img-container">
+                    <img class="cookie-img" src="https://images.unsplash.com/photo-1612198791424-dffa2eb9eb42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29va2llJTIwc3RhbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="cookie one" />
+                    <p> class="img-text"> Lorem ipsum dolor sit.</p>
+                </div>
+                <div> class="img-container">
+                    <img class="cookie-img" src="https://images.unsplash.com/photo-1612195325693-8b8c2b2394a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29va2llJTIwc3RhbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="cookie two" />
+                    <p> class="img-text"> Lorem ipsum dolor sit.</p>
+                </div>
+                <div> class="img-container">
+                    <img class="cookie-img" src="https://images.unsplash.com/photo-1612198789737-4b9e98941992?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29va2llJTIwc3RhbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="cookie three" />
+                    <p> class="img-text"> Lorem ipsum dolor sit.</p>
+                </div>
+            </section>
+            <section> class="cookie-text-section">
+                <p> class="hero-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolorem tempora animi nesciunt vero, fuga ipsum vitae unde modi nihil dicta in aspernatur officiis sequi soluta consectetur, libero optio veritatis.
+                </p>
+            </section>
+            <p>
+                <script>
+                    document.write(timeOfDay("You're great!", "did you know Michael is amazing!"));
+                </script>
+            </p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&#169; 2023 Cookie Stand</p>
+        </div>
+    </footer>
+    <!-- <script src="scripts.js"></script> -->
 </body>
 </html>
