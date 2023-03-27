@@ -18,5 +18,10 @@ if (time < 12) {
 
 console.log(message);
 
+let arsenalFan = confirm("I am an arsenal fan, do you support arsenal " + user + "?");
 
-
+if (arsenalFan === true) {
+    console.log("You're great " + user);
+} else {
+    console.log("you suck " + user);
+}
