@@ -1,0 +1,56 @@
+/*************
+General styling / Elements
+**************/
+
+/*************
+Images
+**************/
+
+img {
+    width: 100%;
+    display: block;
+  }
+  
+  .hero-img {
+    border: 2px solid pink;
+  }
+  
+  /*************
+  Buttons / Links / li / inputs
+  **************/
+  
+  a {
+    color: red;
+  }
+  
+  /*************
+  Typography
+  **************/
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .hero-text {
+    color: green;
+  }
+  
+  /*************
+  Layout
+  **************/
+  
+  header {
+  }
+  
+  .header-container {
+  }
+  
+  main {
+  }
+  
+  /*************
+  Media Queries
+  **************/
+  
+  @media (min-width: 700px) {
+  }
